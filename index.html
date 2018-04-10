@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="jquery-3.2.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<audio id="my_audio" ></audio>
+<header>
+    <div class="prev">
+
+    </div>
+    <div class="start_end">
+
+    </div>
+    <div class="next">
+
+    </div>
+    <div id="progress">
+        <div id="date_time">
+            <div id="personal_name">汪峰</div>
+            <div id="time">00:00/00:00</div>
+        </div>
+        <div id="time_thing">
+            <div id="t">
+            </div>
+        </div>
+    </div>
+    <div id="click_volume">
+
+    </div>
+    <div id="volume">
+        <div>
+
+        </div>
+    </div>
+    <div id="scale_small">
+
+    </div>
+</header>
+<section>
+    <div id="play_img">
+        <ul id="play_img_ul">
+            <li><img src="image/1.jpg" alt=""/></li>
+            <li><img src="image/2.jpg" alt=""/></li>
+            <li><img src="image/3.jpg" alt=""/></li>
+            <li><img src="image/4.jpg" alt=""/></li>
+            <li><img src="image/5.jpg" alt=""/></li>
+            <li><img src="image/6.jpg" alt=""/></li>
+            <li><img src="image/7.jpg" alt=""/></li>
+            <li><img src="image/8.jpg" alt=""/></li>
+            <li><img src="image/9.jpg" alt=""/></li>
+        </ul>
+    </div>
+    <div id="list">
+        <ul id="list_ul">
+            <li title="music/北京北京.mp3">01.北京北京-汪峰</li>
+            <li title="music/因为爱情.mp3">02.因为爱情-陈奕迅/王菲</li>
+            <li title="music/情歌.mp3">03.情歌</li>
+            <li title="music/感恩的心.mp3">04.感恩的心</li>
+            <li title="music/爱与诺言.mp3">05.爱与诺言</li>
+            <li title="music/相思风雨中.mp3">06.相思风雨中</li>
+            <li title="music/阿悄-如果说离别.mp3">07.如果说离别-阿悄</li>
+            <li title="music/离不开你.mp3">08.离不开你</li>
+            <li title="music/陈瑞-白狐.mp3">09.白狐</li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <input type="button" value="随机播放" id="random"/>
+    <input type="button" value="单曲播放" id="one_play"/>
+</footer>
+</body>
+</html>
